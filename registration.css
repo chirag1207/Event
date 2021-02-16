@@ -1,0 +1,49 @@
+#Leader {
+    width: 90%;
+    height:700px;
+    border: 5px solid black;
+    padding: 50px;
+    margin: 20px;
+    background-color: cadetblue;
+  }
+    input[type=text]{
+        background: lightGray;
+        width:200px;
+        font-size: 15px;
+        font-weight: 900;
+        border-radius: 7px;
+        margin-left: 13px;
+        margin-top: 10px;
+        text-align: left;
+    }
+
+    textarea {
+        background: lightGray;
+        width:400px;
+        font-size: 15px;
+        font-weight: 900;
+        border-radius: 7px;
+        margin-left: 13px;
+        margin-top: 10px;
+        text-align: left;
+    }
+    input[type=email]{
+        background: lightGray;
+        width:200px;
+        font-size: 15px;
+        font-weight: 900;
+        border-radius: 7px;
+        margin-left: 13px;
+        margin-top: 10px;
+        text-align: left;
+    }
+    input[type=phone]{
+        background: lightGray;
+        width:200px;
+        font-size: 15px;
+        font-weight: 900;
+        border-radius: 7px;
+        margin-left: 13px;
+        margin-top: 10px;
+        text-align: left;
+    }

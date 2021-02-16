@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="registration.css">
+  </head>
+  <body>
+    <center>
+    <h1>Vcet IT's Hackathon</h1>
+    <h2>Registration Form</h2>
+    <div id="Leader">
+   <form action="registration.php" method="POST">
+    <h2> Team Leader <h2>
+    <table>
+      <tr>
+        <td>Team Name:</td>
+        <td><input type="text" name="tname" required></td>
+      </tr>
+     <tr>
+      <td>First Name :</td>
+      <td><input type="text" name="fname" required></td>
+      <td>Last name:</td>
+      <td><input type="text" name="lname" required></td>
+     </tr>
+     <tr>
+      <td>Year:</td>
+      <td>
+       <input type="radio" name="year" value="fe" required>FE
+       <input type="radio" name="year" value="se" required>SE
+       <input type="radio" name="year" value="te" required>TE
+       <input type="radio" name="year" value="be" required>BE
+      </td>
+    </tr>
+    <tr>
+      <td>College Name</td>
+      <td><input type="text" name="cname" required></td>
+     </tr>
+     <tr>
+      <td>Gender :</td>
+      <td>
+       <input type="radio" name="gender" value="m" required>Male
+       <input type="radio" name="gender" value="f" required>Female
+      </td>
+     </tr>
+     <tr>
+      <td>Email :</td>
+      <td><input type="email" name="email" required></td>
+     </tr> 
+     <tr>
+      <td>Phone no :</td>
+      <td>
+       <input type="phone" name="phone" required>
+      </td>
+     </tr>
+      <tr>
+      <td>Team Member 1:</td>
+      <td>
+       <input type="text" name="mem1" required>
+      </td>
+     </tr> <tr>
+      <td>Team Member 2:</td>
+      <td>
+       <input type="text" name="mem2" required>
+      </td>
+     </tr> <tr>
+      <td>Team Member 3:</td>
+      <td>
+       <input type="text" name="mem3" required>
+      </td>
+     </tr>
+     <td>Topic Name:</td>
+      <td>
+       <input type="text" name="topic" required>
+      </td>
+     </tr>
+     <tr>
+      <td><input type="submit" name="submit" value="Submit"></td>
+     </tr>
+     
+    </table>
+   </form>
+   
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </center>
+  </body>
+</html>
